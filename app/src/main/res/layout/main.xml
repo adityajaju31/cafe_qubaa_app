@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".ParonamaviewDemo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/change"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="change"
+            />
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            />
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        card_view:cardElevation="8dp"
+        card_view:cardCornerRadius="8dp"
+        >
+        <pl.rjuszczyk.panorama.viewer.PanoramaGLSurfaceView
+            android:id="@+id/panorama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:img="@drawable/pano2"
+            app:gyroscopeEnabled="true"
+            app:initialRotationX="0"
+            app:initialRotationY="180"
+            app:initialRotationZ="180"
+            />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

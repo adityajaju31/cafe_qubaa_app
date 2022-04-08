@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminsignin"
+    android:background="#000000">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="246dp"
+        android:layout_height="236dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logo"
+        tools:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/adminmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:background="#808080"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/adminpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_below="@+id/adminmail"
+        android:layout_marginTop="20dp"
+        android:background="#808080"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/adminlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminpassword"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="adminlogin"
+        android:text="LOG IN"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

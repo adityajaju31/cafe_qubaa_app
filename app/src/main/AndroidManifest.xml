@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cafequbaa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme,android:label">
+        <activity android:name=".TableFree"></activity>
+        <activity android:name=".ViewTablebooking"></activity>
+        <activity android:name=".Viewalluser" />
+        <activity android:name=".Orderdetail" />
+        <activity android:name=".Viewcustomer" />
+        <activity android:name=".Checkdata" />
+        <activity android:name=".cafeView" />
+        <activity android:name=".aboutUs" />
+        <activity android:name=".adminhomepage" />
+        <activity android:name=".adminsignin" />
+        <activity android:name=".tablebooking" />
+        <activity android:name=".logout" />
+        <activity android:name=".menulist" />
+        <activity
+            android:name=".homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".signuppage" />
+        <activity android:name=".signInpage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Itemdetail" />
+        <activity android:name=".TouchCafeview" />
+        <activity
+            android:name=".PanoramicViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ParonamaviewDemo"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_WnWyBoS6O1ieSI" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "159831503083",
+    "firebase_url": "https://qubaa-dc3cb.firebaseio.com",
+    "project_id": "qubaa-dc3cb",
+    "storage_bucket": "qubaa-dc3cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159831503083:android:78023c07c32931af66ceae",
+        "android_client_info": {
+          "package_name": "com.example.cafequbaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159831503083-mtkb1tgubb046qts54il6ohjee2jrdq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cafequbaa",
+            "certificate_hash": "047792d3a552195c67d86d59b5a41be2c3f41e45"
+          }
+        },
+        {
+          "client_id": "159831503083-6i5ao3or4ptkpnr9p54m4hg9o6osr3ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEc46fGutCd5xAr2-hdj6s5ncHW0JLqSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159831503083-6i5ao3or4ptkpnr9p54m4hg9o6osr3ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
